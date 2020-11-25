@@ -1,0 +1,19 @@
+l = log --oneline --graph --decorate --all
+(git config --global alias.l 'log --oneline --graph --decorate --all')
+
+br = branch
+(git config --global alias.br branch)
+
+s = status --short
+(git config --global alias.s 'status --short')
+
+co = checkout
+(git config --global alias.co checkout)
+
+g = Тому что внизу написано
+(git config --global alias.g "log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'")
+
+aa = config --get-regexp alias
+(git config --global alias.aa "config --get-regexp alias")
+Посмотреть все псевдонимы: git config --get-regexp alias
+
