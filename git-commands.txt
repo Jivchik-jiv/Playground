@@ -9,6 +9,12 @@ $ git commit --amend -m "Change last commite"
 
 git checkout . (Отмена всех изменений(до add), вместо точки может быть имя нужного файла)
 
+git checkout nameOfTheBranche -для смены ветки.
+
+git branch - Показывает все ветки и на какой мы находимся.
+
+git branch nameOfTheBranche - создание новой ветки.
+
 
 git reset . (Анстейдж всех изменений(после add), вместо точки может быть имя нужного файла)
 
