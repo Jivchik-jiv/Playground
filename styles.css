@@ -1,5 +1,5 @@
 body{
-   background-color: gold;
+   background: gold;
    color:black; 
    
 
@@ -12,6 +12,11 @@ main{
 
 h2{
     font-size:2em;
+}
+.main-branch {
+    background:blue;
+    color:yellow;
+    padding:20px;
 }
 
 .developer{
